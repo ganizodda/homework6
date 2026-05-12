@@ -103,4 +103,18 @@ div button {
   color: white;
   padding: 15px;
 }
+
+.sec2 {
+  width: 1400px;
+  height: 600px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
