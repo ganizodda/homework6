@@ -155,3 +155,12 @@ div{
 .sec6{
     @extend.sec1;
 }
+.sec7{
+    @extend.sec3;
+}
+.div6{
+    width: 340px;
+    height: 450px;
+    display: block;
+    text-align: center;
+}
