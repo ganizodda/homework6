@@ -164,3 +164,48 @@ div{
     display: block;
     text-align: center;
 }
+.footer1{
+    max-width: 1521px;
+    height: 400px;
+    background-color: #2B2B39;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.a1{
+    width: 600px;
+    height: 300px;
+
+    .a2{
+        width: 150px;
+        height: 300px;
+
+        display: block;
+    }
+}
+.a3{
+    width: 400px;
+    height: 300px;
+    color: white;
+    display: block;
+    input{
+        width: 80%;
+        padding: 20px;
+        background-color: #d4e7fe00;
+        border-radius: 20px;
+        border: 3px solid grey;
+    }
+}
+.footer2{
+    max-width: 1521px;
+    margin: auto;
+    height: 100px;
+    background-color: #20202D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
