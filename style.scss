@@ -142,3 +142,13 @@ div{
     justify-content: space-around;
     align-items: center;
 }
+.icon{
+    max-width: 500px;
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.sec5{
+    @extend.sec3;
+}
