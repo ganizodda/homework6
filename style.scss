@@ -10,11 +10,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    h1{
-        font-size: 30px;
-        font-family: monospace;
-        color: green;
-    }
 }
 nav{
     display: flex;
@@ -41,8 +36,40 @@ div{
         padding: 10px;
         border-radius: 10px;
         width: 130px;
-        &:active{
-            background-color: black;
-        }
     }
 }
+.sec1{
+    width: 1400px;
+    height: 600px;
+    margin: auto;
+    background: linear-gradient(#D4E7FE,#FFFFFF);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div2{
+        width: 450px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        p{
+            background-color: aliceblue;
+            color: blue;
+            width: 200px;
+            height: 20px;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+           }
+        h1{
+            width: 100%;
+            font-size: 45px;
+        }
+    }
+.div3{
+        .bn1{
+            background-color: blue;
+            color: white;
+            padding: 15px;    
+        }
+    }
