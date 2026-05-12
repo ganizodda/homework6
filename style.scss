@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header1{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    h1{
+        font-size: 30px;
+        font-family: monospace;
+        color: green;
+    }
+}
+nav{
+    display: flex;
+    gap: 30px;
+    a{
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color: blue;
+            border-bottom: 3px solid blue;
+            font-size: 20px;
+        }
+    }
+}
+div{
+    display: flex;
+    gap: 50px;
+    button{
+        background-color: white;
+        color: black;
+        border: none;
+        border-bottom: 2px solid grey;
+        padding: 10px;
+        border-radius: 10px;
+        width: 130px;
+        &:active{
+            background-color: black;
+        }
+    }
+}

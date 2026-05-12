@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.header1 h1 {
+  font-size: 30px;
+  font-family: monospace;
+  color: green;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: blue;
+  border-bottom: 3px solid blue;
+  font-size: 20px;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+div button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 130px;
+}
+
+div button:active {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
